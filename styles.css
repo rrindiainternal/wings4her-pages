@@ -67,20 +67,9 @@ th {
   font-weight: bold;
 }
 
-/* Set specific column widths */
-table th:first-child,
-table td:first-child {
-  width: 45%;
-}
-
-table th:nth-child(2),
-table td:nth-child(2) {
-  width: 40%;
-}
-
-table th:nth-child(3),
-table td:nth-child(3) {
-  width: 15%;
+/* Equal width for all columns */
+table th, table td {
+  width: 33.33%;
 }
 
 /* Links */
